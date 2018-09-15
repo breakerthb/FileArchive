@@ -4,4 +4,8 @@
     <LocalDebuggerCommandArguments>archive.conf ABC.xlsx</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>D:\Git\FileArchive\FileAchive\archive.conf D:\WorkBench\Desktop\项目验收列表.xlsx</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
 </Project>
